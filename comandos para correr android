@@ -1,0 +1,14 @@
+//Preparando la plataforma de android
+ionic cordova prepare android
+
+//Generar el apk
+ionic cordova build android
+
+//Ver dispositivos y emuladores disponibles
+ionic cordova run --list => native-run android --list
+
+//Correr la aplicación en el dispositivo o emulador 
+    --target=NombreEmuladorODispositivo corre la apalicación apuntando a un dispositivo
+        o emulador especifico, si se omitie busca el dispositivo conectado por USB
+    -l opcional para auto actualización, live reload
+ionic cordova run android --target=Pixel_2_API_26 -l 
