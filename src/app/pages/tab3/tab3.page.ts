@@ -21,7 +21,7 @@ export class Tab3Page implements OnInit {
   }
 
   constructor(
-    protected readonly dataLocalService:DataLocalService
+    public readonly dataLocalService:DataLocalService
   ) {}
 
   async ngOnInit() {
